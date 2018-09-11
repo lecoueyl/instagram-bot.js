@@ -42,6 +42,7 @@ proguard/
 logs/*.log
 logs/screenshot/*.png
 logs/screenshot/*.jpg
+databases/*.db
 *.log
 *.sql
 *.sqlite
@@ -114,7 +115,11 @@ npm-debug.log
 /bower_components
 package-lock.json
 
-# NodePress.js #
+# PM2 #
+##########
+.pm2
+
+# Social Manager Tools #
 ################
-config/*
-!config/config.js.tpl
+configs/*
+!configs/config.js.tpl
